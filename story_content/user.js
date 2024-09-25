@@ -2,6 +2,18 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
+      case "662hfGYhiRE":
+        Script1();
+        break;
   }
+}
+
+function Script1()
+{
+  var audio = document.getElementById('mysong');
+audio.src="misong.mp3";
+audio.load();
+audio.play();
+audio.volume=0.3;
 }
 
